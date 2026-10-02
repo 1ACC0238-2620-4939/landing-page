@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <meta
+    name="description"
+    content="Trakto Route: una app móvil para gestionar viajes, consultar rutas y dar seguimiento al transporte de carga."
+  >
+
+  <meta
+    name="theme-color"
+    content="#00265f"
+  >
+
+  <title>
+    Trakto Route | Cada viaje, bajo control
+  </title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <a href="#contenido" class="skip">
+    Saltar al contenido
+  </a>
+
+
+  <!-- ==================== HEADER ==================== -->
+
+  <header class="header">
+
+    <div class="container header-inner">
+
+      <a
+        class="brand"
+        href="#inicio"
+        aria-label="Trakto Route, inicio"
+      >
+
+        <span class="brand-logo">
+          <img
+            src="logo.png"
+            alt="Trakto Route"
+            width="1280"
+            height="1280"
+          >
+        </span>
+
+      </a>
+
+
+      <nav
+        class="navigation"
+        aria-label="Navegación principal"
+      >
+
+        <ul
+          class="nav-list"
+          id="nav-list"
+        >
+
+          <li>
+            <a href="#solucion">
+              La solución
+            </a>
+          </li>
+
+          <li>
+            <a href="#como-funciona">
+              Cómo funciona
+            </a>
+          </li>
+
+          <li>
+            <a href="#nosotros">
+              Nosotros
+            </a>
+          </li>
+
+          <li>
+            <a href="#equipo">
+              Equipo
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="button small"
+              href="#proyecto"
+            >
+              Conoce el proyecto
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <!-- ==================== CONTENIDO PRINCIPAL ==================== -->
+
+  <main id="contenido">
+
+
+    <!-- ==================== INICIO ==================== -->
+
+    <section
+      id="inicio"
+      class="hero"
+      aria-labelledby="hero-title"
+    >
+
+      <div class="container">
+
+        <div class="hero-grid">
+
+
+          <!-- HERO - TEXTO -->
+
+          <div class="hero-copy">
+
+            <p class="eyebrow">
+              Gestión de transporte de carga
+            </p>
+
+            <h1 id="hero-title">
+              Cada viaje,<br>
+              <span>bajo control.</span>
+            </h1>
+
+            <p>
+              Trakto Route será una app móvil para gestionar viajes de transporte
+              de carga, consultar rutas y dar seguimiento al recorrido
+              desde tu celular.
+            </p>
+
+            <div class="actions">
+
+              <a
+                href="#solucion"
+                class="button"
+              >
+                Explora la solución
+              </a>
+
+              <a
+                href="#equipo"
+                class="button secondary"
+              >
+                Conoce al equipo
+              </a>
+
+            </div>
+
+            <div class="hero-note">
+              De la salida al destino. Todo en un mismo flujo.
+            </div>
+
+          </div>
+
+
+          <!-- VISTA DEL PRODUCTO -->
+
+          <div
+            class="product-preview"
+            role="group"
+            aria-label="Vista ilustrativa de un viaje de Trakto Route"
+          >
+
+            <div class="preview-top">
+
+              <strong>
+                Tu viaje de hoy
+              </strong>
+
+            </div>
+
+
+            <!-- MAPA -->
+
+            <div class="route-map">
+
+              <svg
+                viewBox="0 0 450 220"
+                role="img"
+                aria-label="Esquema ilustrativo de una ruta entre origen y destino"
+              >
+
+                <rect
+                  width="450"
+                  height="220"
+                  fill="#e8eff7"
+                />
+
+                <g
+                  stroke="#fff"
+                  stroke-width="12"
+                >
+
+                  <path
+                    d="M-10 55H460M-10 150H460M85-10V230M270-10V230M400-10V230"
+                  />
+
+                  <path
+                    d="M-20 220 245-20M205 240 450 10"
+                  />
+
+                </g>
+
+
+                <g
+                  stroke="#c5d3e5"
+                  stroke-width="1"
+                  fill="none"
+                >
+
+                  <path
+                    d="M-10 55H460M-10 150H460M85-10V230M270-10V230M400-10V230"
+                  />
+
+                </g>
+
+
+                <path
+                  d="M85 172V55H270V150H368"
+                  fill="none"
+                  stroke="#007bdf"
+                  stroke-width="6"
+                  stroke-linejoin="round"
+                />
+
+
+                <circle
+                  cx="85"
+                  cy="172"
+                  r="9"
+                  fill="#00265f"
+                  stroke="#fff"
+                  stroke-width="4"
+                />
+
+
+                <circle
+                  cx="368"
+                  cy="150"
+                  r="9"
+                  fill="#ed0920"
+                  stroke="#fff"
+                  stroke-width="4"
+                />
+
+
+                <circle
+                  cx="235"
+                  cy="55"
+                  r="14"
+                  fill="#00265f"
+                  stroke="#fff"
+                  stroke-width="4"
+                />
+
+
+                <path
+                  d="m230 55 9-5v10z"
+                  fill="#ffffff"
+                />
+
+              </svg>
+
+            </div>
+
+
+            <!-- INFORMACIÓN DEL VIAJE -->
+
+            <div class="trip-card">
+              <div class="trip-driver">
+                <span class="driver-avatar" aria-hidden="true">RL</span>
+                <p><span class="trip-label">Chofer</span><strong>Robert Lund</strong></p>
+              </div>
+              <div class="trip-tags">
+                <span class="vehicle-tag"><span>Vehículo</span><strong>M0RT3M</strong></span>
+                <span class="status-tag"><span>Viaje</span><strong>En progreso</strong></span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- PASOS DEL HERO -->
+
+        <div class="hero-bottom">
+
+          <div>
+            <b>01</b>
+            <span>Planifica los viajes</span>
+          </div>
+
+          <div>
+            <b>02</b>
+            <span>Supervisa el recorrido</span>
+          </div>
+
+          <div>
+            <b>03</b>
+            <span>Consulta lo que pasó</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==================== SOLUCIÓN ==================== -->
+
+    <section
+      id="solucion"
+      class="section"
+      aria-labelledby="solution-title"
+    >
+
+      <div class="container">
+
+        <div class="section-intro">
+
+          <p class="eyebrow">
+            La solución
+          </p>
+
+          <h2 id="solution-title">
+            Menos información dispersa.<br>
+            Más claridad en cada viaje.
+          </h2>
+
+          <p>
+            Trakto Route está diseñado para reunir la información que
+            necesitas antes, durante y después de un recorrido.
+          </p>
+
+        </div>
+
+
+        <div class="features">
+
+
+          <!-- FUNCIÓN 01 -->
+
+          <article class="feature">
+
+            <div
+              class="feature-number"
+              aria-hidden="true"
+            >
+              01
+            </div>
+
+            <h3>
+              Gestión de viajes
+            </h3>
+
+            <p>
+              Organiza el origen, el destino y la fecha programada.
+              Relaciona cada viaje con su conductor y vehículo, y consulta
+              su estado.
+            </p>
+
+          </article>
+
+
+          <!-- FUNCIÓN 02 -->
+
+          <article class="feature">
+
+            <div
+              class="feature-number"
+              aria-hidden="true"
+            >
+              02
+            </div>
+
+            <h3>
+              Planificación de rutas
+            </h3>
+
+            <p>
+              Consulta el recorrido propuesto, la distancia y la duración
+              estimada para preparar el traslado con información útil.
+            </p>
+
+          </article>
+
+
+          <!-- FUNCIÓN 03 -->
+
+          <article class="feature">
+
+            <div
+              class="feature-number"
+              aria-hidden="true"
+            >
+              03
+            </div>
+
+            <h3>
+              Seguimiento y paradas
+            </h3>
+
+            <p>
+              El diseño contempla el seguimiento por GPS y el registro
+              automático de paradas para revisar cuándo y por qué se
+              detuvo el vehículo.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==================== CÓMO FUNCIONA ==================== -->
+
+    <section
+      id="como-funciona"
+      class="section soft"
+      aria-labelledby="workflow-title"
+    >
+
+      <div class="container workflow">
+
+        <div>
+
+          <p class="eyebrow">
+            Cómo funciona
+          </p>
+
+          <h2 id="workflow-title">
+            Un recorrido claro,<br>
+            de principio a fin.
+          </h2>
+
+          <p class="muted">
+            Cada etapa reúne su información para que la operación pueda
+            entenderse como un solo proceso.
+          </p>
+
+          <a
+            class="button"
+            href="#nosotros"
+          >
+            Descubre nuestra propuesta
+          </a>
+
+        </div>
+
+
+        <ol class="steps">
+
+
+          <!-- PASO 01 -->
+
+          <li>
+
+            <div>
+
+              <h3>
+                Prepara el viaje
+              </h3>
+
+              <p>
+                Define el origen, el destino y el horario. Asigna el
+                conductor y el vehículo y consulta la ruta planificada.
+              </p>
+
+            </div>
+
+          </li>
+
+
+          <!-- PASO 02 -->
+
+          <li>
+
+            <div>
+
+              <h3>
+                Acompaña el recorrido
+              </h3>
+
+              <p>
+                Inicia el viaje y consulta su estado. El seguimiento
+                permite identificar movimientos y paradas durante el
+                trayecto.
+              </p>
+
+            </div>
+
+          </li>
+
+
+          <!-- PASO 03 -->
+
+          <li>
+
+            <div>
+
+              <h3>
+                Revisa el resultado
+              </h3>
+
+              <p>
+                Al finalizar, consulta los tiempos y las paradas del viaje
+                para comprender cómo se desarrolló el recorrido.
+              </p>
+
+            </div>
+
+          </li>
+
+        </ol>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==================== NOSOTROS ==================== -->
+
+    <section
+      id="nosotros"
+      class="section"
+      aria-labelledby="about-title"
+    >
+
+      <div class="container about-grid">
+
+        <div>
+
+          <p class="eyebrow">
+            Acerca de nosotros
+          </p>
+
+          <h2 id="about-title">
+            Tecnología que entiende<br>
+            el camino.
+          </h2>
+
+        </div>
+
+
+        <div class="about-detail">
+
+          <h3>
+            Somos el equipo de Trakto Route
+          </h3>
+
+          <p>
+            Un equipo de cinco integrantes que desarrolla una propuesta
+            para facilitar la gestión del transporte de carga. Nuestro
+            punto de partida es una necesidad concreta: tener una visión
+            más clara de cada viaje.
+          </p>
+
+          <p>
+            Desarrollamos una app móvil que conectará viajes, conductores,
+            vehículos, rutas y seguimiento para facilitar la gestión
+            del transporte desde el celular.
+          </p>
+
+
+          <div
+            class="values"
+            aria-label="Principios del proyecto"
+          >
+
+            <span>
+              Claridad
+            </span>
+
+            <span>
+              Organización
+            </span>
+
+            <span>
+              Trabajo en equipo
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==================== EQUIPO ==================== -->
+
+    <section
+      id="equipo"
+      class="section soft"
+      aria-labelledby="team-title"
+    >
+
+      <div class="container">
+
+        <div class="team-header">
+
+          <div>
+
+
+            <h2 id="team-title">
+              Nuestro equipo
+            </h2>
+
+          </div>
+
+          <p>
+            El equipo detrás de la propuesta y el desarrollo de Trakto Route.
+          </p>
+
+        </div>
+
+
+        <!-- REPOSITORIO: reemplaza los href="#repositorio" de los enlaces repository-link por la URL real. -->
+
+
+        <div class="team-grid">
+          <article class="member">
+            <div class="avatar" aria-hidden="true">CL</div>
+            <h3>Cesar Alejandro Linares Bernable</h3>
+            <p class="member-role">Backend Developer</p>
+            <small>Java · C# · .NET</small>
+          </article>
+          <article class="member">
+            <div class="avatar" aria-hidden="true">JA</div>
+            <h3>Aguilar Aguayo Jeferson Renzo</h3>
+            <p class="member-role">Frontend Developer</p>
+            <small>JavaScript · HTML · CSS</small>
+          </article>
+          <article class="member">
+            <div class="avatar" aria-hidden="true">AF</div>
+            <h3>Alexander Piero Fernandez Garfias</h3>
+            <p class="member-role">Full Stack Developer</p>
+            <small>Kotlin · .NET · Java · Angular · TypeScript · React</small>
+          </article>
+          <article class="member">
+            <div class="avatar" aria-hidden="true">JC</div>
+            <h3>Jose Raul Chirito Torres</h3>
+            <p class="member-role">Frontend Developer</p>
+            <small>Angular · Vue · Desarrollo web</small>
+          </article>
+          <article class="member">
+            <div class="avatar" aria-hidden="true">JL</div>
+            <h3>Loa Rojas, Jean Franck</h3>
+            <p class="member-role">Backend Developer</p>
+            <small>Java · C# · .NET</small>
+          </article>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==================== PREGUNTAS FRECUENTES ==================== -->
+
+    <section id="preguntas" class="section" aria-labelledby="faq-title">
+      <div class="container faq">
+        <div>
+          <p class="eyebrow">Preguntas frecuentes</p>
+          <h2 id="faq-title">Tu gestión, desde el celular.</h2>
+        </div>
+        <div class="faq-list">
+          <details open>
+            <summary>¿Qué es Trakto Route?</summary>
+            <p>Trakto Route será una app móvil para gestionar viajes de transporte de carga. Reunirá la planificación, las rutas, los conductores, los vehículos y el seguimiento del recorrido en un mismo lugar.</p>
+          </details>
+          <details>
+            <summary>¿A quién está dirigida la app?</summary>
+            <p>A quienes organizan y supervisan el transporte de carga y a los conductores que realizan los viajes. Su propósito es facilitar la consulta y gestión de la información desde el celular.</p>
+          </details>
+          <details>
+            <summary>¿Qué podré gestionar desde mi celular?</summary>
+            <p>Podrás organizar viajes con su origen, destino y horario, asignar conductores y vehículos, consultar rutas y revisar el estado de cada recorrido.</p>
+          </details>
+          <details>
+            <summary>¿Cómo funcionará el seguimiento de los viajes?</summary>
+            <p>La app utilizará la ubicación GPS para seguir el recorrido del vehículo y registrar las paradas. Así podrás consultar dónde se encuentra y revisar lo ocurrido durante el viaje.</p>
+          </details>
+          <details>
+            <summary>¿Cómo se registrarán las paradas?</summary>
+            <p>Las paradas se registrarán automáticamente cuando el vehículo permanezca detenido durante al menos diez minutos. Cuando vuelva a moverse, se registrará su finalización y se podrá indicar el motivo de la parada.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== PROYECTO ==================== -->
+
+    <section
+      id="proyecto"
+      class="section cta-section"
+      aria-labelledby="project-title"
+    >
+
+      <div class="container">
+
+        <div class="cta">
+
+          <div>
+
+            <h2 id="project-title">
+              Conoce lo que estamos construyendo.
+            </h2>
+
+            <p>
+              Explora el código y la documentación del proyecto.
+            </p>
+
+          </div>
+
+          <a
+            class="button repository-link"
+            href="#repositorio"
+          >
+            Ver repositorio
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==================== INFORMACIÓN LEGAL ==================== -->
+
+    <section
+      id="informacion-legal"
+      class="section soft"
+      aria-labelledby="legal-title"
+    >
+
+      <div class="container legal-content">
+
+        <p class="eyebrow">
+          Información del sitio
+        </p>
+
+        <h2 id="legal-title">
+          Privacidad y condiciones
+        </h2>
+
+
+        <!-- PRIVACIDAD -->
+
+        <details id="privacidad">
+
+          <summary>
+            Política de privacidad
+          </summary>
+
+          <p>
+            Esta página de presentación no incluye formularios, cookies,
+            analítica ni almacenamiento de datos personales. No solicita tu
+            ubicación. Los datos del viaje mostrado son ilustrativos. Si
+            visitas el repositorio, se aplican las políticas de la
+            plataforma externa.
+          </p>
+
+          <p>
+            Esta descripción corresponde a la landing estática. Si se
+            incorporan servicios de analítica, formularios o funciones de
+            la aplicación, el equipo deberá actualizarla para explicar qué
+            información se utiliza y con qué propósito.
+          </p>
+
+        </details>
+
+
+        <!-- TÉRMINOS -->
+
+        <details id="terminos">
+
+          <summary>
+            Condiciones de uso
+          </summary>
+
+          <p>
+            El contenido tiene fines informativos y presenta la propuesta
+            de Trakto Route. La vista del producto no representa una
+            operación en tiempo real ni garantiza disponibilidad de
+            funciones. El uso y la distribución del código dependerán de
+            la licencia publicada por el equipo en el repositorio.
+          </p>
+
+        </details>
+
+
+        <!-- REPOSITORIO -->
+
+        <details id="repositorio">
+
+          <summary>
+            Repositorio del proyecto
+          </summary>
+
+          <p id="repository-description">
+            La dirección del repositorio está pendiente de configuración
+            por el equipo.
+          </p>
+
+          <a
+            class="button repository-link"
+            href="#repositorio"
+          >
+            Consultar repositorio
+          </a>
+
+        </details>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ==================== FOOTER ==================== -->
+
+  <footer class="footer">
+
+    <div class="container">
+
+      <div class="footer-grid">
+
+
+        <!-- INFORMACIÓN -->
+
+        <div class="footer-intro">
+
+          <a
+            class="brand"
+            href="#inicio"
+          >
+
+            <span class="brand-logo">
+
+              <img
+                src="logo.png"
+                alt="Trakto Route"
+                width="1280"
+                height="1280"
+              >
+
+            </span>
+
+          </a>
+
+          <p>
+            Planificación y seguimiento para comprender cada viaje de
+            transporte de carga.
+          </p>
+
+        </div>
+
+
+        <!-- NAVEGACIÓN: PRODUCTO -->
+
+        <nav aria-label="Producto">
+
+          <h3>
+            La solución
+          </h3>
+
+          <ul>
+
+            <li>
+              <a href="#solucion">
+                Funcionalidades
+              </a>
+            </li>
+
+            <li>
+              <a href="#como-funciona">
+                Cómo funciona
+              </a>
+            </li>
+
+            <li>
+              <a href="#preguntas">
+                Preguntas frecuentes
+              </a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+
+        <!-- NAVEGACIÓN: NOSOTROS -->
+
+        <nav aria-label="Acerca de nosotros">
+
+          <h3>
+            Acerca de nosotros
+          </h3>
+
+          <ul>
+
+            <li>
+              <a href="#nosotros">
+                Quiénes somos
+              </a>
+            </li>
+
+            <li>
+              <a href="#equipo">
+                Nuestro equipo
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#repositorio"
+                class="repository-link"
+              >
+                Repositorio
+              </a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+
+        <!-- NAVEGACIÓN: INFORMACIÓN LEGAL -->
+
+        <nav aria-label="Información legal">
+
+          <h3>
+            Información legal
+          </h3>
+
+          <ul>
+
+            <li>
+              <a
+                href="#privacidad"
+                class="legal-link"
+              >
+                Política de privacidad
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#terminos"
+                class="legal-link"
+              >
+                Condiciones de uso
+              </a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+      </div>
+
+
+      <!-- FOOTER INFERIOR -->
+
+      <div class="footer-bottom">
+
+        <p>
+          © <span id="year">2026</span> Trakto Route.
+        </p>
+
+        <p>
+          Desarrollado por el equipo Trakto Route.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
